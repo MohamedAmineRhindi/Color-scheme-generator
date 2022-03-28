@@ -1,0 +1,88 @@
+/* Typography */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+select {
+    border-radius: 5px;
+    padding: .5em;
+    font-size: 1rem;
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 5px;
+    padding: .5em;
+    font-size: 1rem;
+    border: 1px solid #D1D5DB;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+
+
+
+/* Layout */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: fit-content;
+    max-width: 600px;
+    max-height: 600px;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+    padding: 1em;
+}
+
+.colors-container {
+    display: flex;
+    flex: 1;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.color {
+    flex: 9;
+
+}
+
+.colo-hex-code {
+    text-align: center;
+    padding: .5em;
+}
